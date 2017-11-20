@@ -1,54 +1,183 @@
-<!-- 
-    Class 1:
-        1.1 Wireframe your project
-        1.2 Fork and clone the repo and set up your project workspace
-    Class 2:  
-        2.1 Link your files in the head of the docment Add a Nav Bar to your site - It should have three links (Portfolio, About, and Contact) 
-        2.2 Add a div for each section. Within section add a contatiner div with the appropriate number of rows and columns
-    Class 3:  
-        3.1 Add thumbnails and other custom component (button, modal, font) using bootstrap Documentation 
-        3.2 Add CSS and add your site to gh-pages 
--->
-
 <!DOCTYPE html>
-<head>   
-    <!--Title -->
-    
-    <!-- Your CSS  -->
-    
-    <!-- Bootstrap CSS  -->
-    
-    <!-- Fontawesome CSS  -->
-    
-</head>
+<html>
+    <head>
+        <title>Navbar!</title>
 
-<body>
-    <!-- Nav Bar -->
-    
-    
-    <!-- Header -->
-    
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="stylesheet" href="./css/style.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    </head>
 
-    <!-- Portfolio Grid Section -->
-    
+        <body data-spy="scroll" data-target=".navbar">
+        
+<!--NAVBAR-->
 
-    <!-- About Section -->
-   
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+              <div class="row">
+                    <div class="col-xs-3 col-xs-offset-2 navbar-header">
+                      <a class="navbar-brand" href="#">Carmen Salas</a>
+                    </div>
+                    
+                    <div class="col-xs-5 col-xs-offset-2">
+                        <ul class="nav navbar-nav ">
+                          <li class="active"><a href="#section-one">About Me</a></li>
+                          <li><a href="#section-two">Portfolio</a></li>
+                          <li><a href="#section-three">Contact</a></li>
+                          <li><a href="#section-four">Home</a></li>
+                        </ul>
+                    </div>
+                    
+              </div>
+          </div>
+        </nav>
+    
+    <!--CONTAINERS-->
+    
+<!--SECTION ONE -->
+        <div class="container-fluid" id="section-one">
+            
+                <div class="row">
+                    <div class="col-xs-offset-5 col-xs-3">
+                        <h1>
+                            About Me
+                        </h1>
+                    </div>
+                </div>
+                
+                
+            <div class="row">
+                <div class="col-xs-4" class="color_div">
+                    <img src="http://www.qygjxz.com/data/out/190/5691490-profile-pictures.png">
+                </div>
+                
+                <div class="col-xs-8" class="color_div" id="section-one" >
+                
+                     <p> My name is Carmen, I'm 17 years old and I live in new york city. I go to the
+                      high school of fashion industries where I major in Fashion. I'm also a coder, 
+                      I have experience coding HTML, CSS, Javascript, and Bootstrap.</p> 
+                </div>
+            </div>
+        </div>
 
-    <!-- Contact Section -->
+    <!--SECTION TWO-->
+        <div class="container-fluid" id="section-two">
+            <div class="row">
+            
+                <div class="col-xs-offset-4 col-xs-4 col-xs-offset-4">
+                    <h1>
+                        Portfolio
+                    </h1>
+            </div>    
+        
+        
+        
+            <div class="row">
+                    
+                    <div class="col-xs-4">
+                        <div class="portfolio-div"></div>
+                    </div>
+                    
+                    <div class="col-xs-4">
+                        <div class="portfolio-div"></div>
+                    </div>
+                    
+                    <div class="col-xs-4">
+                        <div class="portfolio-div"></div>
+                    </div>
+            </div>
+        
+        </div>
+           
+           
+           
+           
+<!--SECTION THREE-->
+    
+          
+          
+          <div class="container-fluid" id="section-three">
+              <div class="row">
+                  <div class="col-xs-offset-5 col-xs-3">
+                      <h1>Contact</h1>
+                  </div>
+              </div>
+              
+              <div class="row">
+                  <div class="col-xs-offset-1 col-xs-4">
+                        <h1>
+                            Email
+                        </h1>
+                            
+                            <br>
+                            
+                        <h1>
+                            Phone number 
+                        </h1>
+                            
+                            <br>
+                            
+                        <h1>
+                            https://carmensalas14.github.io/advanced_portfolio_startercode/
+                        </h1>
+                  </div>
+                  
+                  <div class="col-xs-4">
+                      <h1>
+                          carmensalas0114@gmail.com
+                      </h1>
+                      
+                      <h1>
+                          1-(347)-372-4573
+                      </h1>
+                      
+                      
+                      
+                  </div>
+              </div>
+              
+              
+              
+              
+              
+              
+
+          </div>
 
 
-    <!-- Footer -->
 
-    
-    <!-- Jquery Script -->
-    
-    
-    <!--Bootstrap Javascript -->
-    
-    
-    <!-- Your Javascript -->
-    
-</body>
 
+
+
+
+
+
+
+
+
+       
+             
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
 </html>

@@ -1,5 +1,21 @@
 /* Nav Bar CSS */
 
+.body {
+    position: relative;
+}
+
+.color_div {
+    height: 700px;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.portfolio-div {
+    height:200px;
+    width:200px;
+    background-color: pink;
+}
+
 
 /* Header CSS */
 
