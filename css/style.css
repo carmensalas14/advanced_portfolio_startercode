@@ -1,7 +1,10 @@
 /* Nav Bar CSS */
 
-.body {
+body {
     position: relative;
+    padding-top:90px;
+    background-color: C14242; 
+    
 }
 
 .color_div {
