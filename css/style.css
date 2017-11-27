@@ -2,10 +2,67 @@
 
 body {
     position: relative;
-    padding-top:90px;
-    background-color: C14242; 
+    padding-top:140px;
+    background-color: #f5f5f0; 
     
 }
+
+.nav {
+min-height:50px;
+color: #666666;
+opacity: 100%;
+text-align:center;
+}
+
+ .port-name{
+font-style: bold;
+font-size: 40px;
+font-family: 'Quicksand', sans-serif;
+text-align: center;
+color: #d27979;
+}
+
+.nav-li {
+    text-align: center;
+    font-style: bold;
+  font-size:25px; 
+font-family: 'Quicksand', sans-serif;
+color: #666666;
+
+}
+
+
+.nav .nav-tabs > .nav-li {
+font-size:20px;
+text-align:center;
+}
+
+
+.subtitles{
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.AboutMe-text{
+    font-size:27px;
+     font-family: 'Quicksand', sans-serif;
+    
+}
+
+h1{
+font-family: 'Quicksand', sans-serif;    
+}
+
+.subtitles{
+    text-align:center;
+}
+
+/*CONTACT*/
+#contact-div{
+    background-color: #d27979;
+    
+}
+
 
 .color_div {
     height: 700px;
@@ -14,26 +71,10 @@ body {
 }
 
 .portfolio-div {
-    height:200px;
-    width:200px;
+    height:300px;
+    width:400px;
     background-color: pink;
 }
-
-
-/* Header CSS */
-
-
-
-/* Section CSS */
-
-
-
-/* About Section CSS */
-
-
-
-/* Portfolio Item CSS */
-
 
 
 /* Footer CSS */
